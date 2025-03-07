@@ -61,8 +61,8 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
-# Mark HTML, CSS, and SCSS as vendored to prioritize C#
-*.html linguist-vendored
-*.css linguist-vendored
-*.scss linguist-vendored
-*.js linguist-vendored
+# Exclude HTML from language stats
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.scss linguist-detectable=false
+*.js linguist-detectable=false
