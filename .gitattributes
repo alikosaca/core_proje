@@ -61,3 +61,10 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+*.cs linguist-detectable=true
+*.csproj linguist-detectable=true
+*.razor linguist-detectable=true
+*.cshtml linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
+*.html linguist-detectable=true
